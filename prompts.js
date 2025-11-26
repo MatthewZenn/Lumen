@@ -1,3 +1,3 @@
 const prompts = ["Write about a day in your life.", "Write a scene describing a memory.", "Write about the day of someone in a different time period.", "Re-tell a historical event in an alternate reality.", "Re-write a scene in a different tone or genre.", "Describe a chracter based on somone you've seen or met in your life.", "Inlcude a piece of conversation in a dialogue.", "Write an opening paragraph.", "Describe someone or something as many ways as you can.", "Write your story from someone else's perspective.", "Describe an emotion or feeling."]
 
-const quote = ["Ideas await...", "Ready to be inspired?", "On your mark, Get set, WRITE!", "Feeling stuck?", "Get motivated...", "Wrting is more than typing words...]
+const quote = ["Ideas await...", "Ready to be inspired?", "On your mark, Get set, WRITE!", "Feeling stuck?", "Get motivated...", "Wrting is more than typing words..."]
