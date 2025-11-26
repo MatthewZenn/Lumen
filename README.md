@@ -1,3 +1,4 @@
-![Logo.png](Assets/lumen_logo.png)
 # Lumen
+
+https://matthewzenn.github.io/Lumen/
 A writing prompt generator.
