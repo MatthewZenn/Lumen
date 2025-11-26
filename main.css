@@ -7,6 +7,13 @@ body, html {
   src:url("Assets/Segoe Fluent Icons.ttf");
 }
 
+#logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 20%;
+}
+
 #textarea {
   resize: none;
   background: transparent;
@@ -21,6 +28,7 @@ body, html {
   font-size: 24pt;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
+  outline: none;
 }
 
 #prompt {
@@ -36,6 +44,7 @@ body, html {
   border-radius: 10px;
   font-size: 20pt;
   font-family: SegoeIcons;
+  outline: none;
 }
 
 #prompt:hover {
@@ -45,11 +54,10 @@ body, html {
   transition-duration: 0.25s;
 }
 
-@media only screen and (max-width:600px) {
+@media screen and (max-width:600px) {
   #textarea {
     width: 300px;
     height: 200px;
     font-size: 14;
   }
-  
 }

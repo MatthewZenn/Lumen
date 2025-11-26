@@ -6,3 +6,10 @@ document.getElementById("prompt").addEventListener('click', () => {
   document.getElementById('textarea').innerHTML ='';
   document.getElementById('textarea').innerHTML = prompts.random();
 });
+
+function quotation() {
+  document.getElementById('textarea').innerHTML ='';
+  document.getElementById('textarea').innerHTML = quote.random();
+}
+
+quotation();
