@@ -1,0 +1,55 @@
+body, html {
+  background-color: rgb(96, 85, 255);
+}
+
+@font-face {
+  font-family: SegoeIcons;
+  src:url("Assets/Segoe Fluent Icons.ttf");
+}
+
+#textarea {
+  resize: none;
+  background: transparent;
+  border: none;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 450px;
+  color: white;
+  font-size: 24pt;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+
+#prompt {
+  position: absolute;
+  left: 50%;
+  bottom: 20%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  height: 50px;
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-size: 20pt;
+  font-family: SegoeIcons;
+}
+
+#prompt:hover {
+  cursor: pointer;
+  background-color: white;
+  color: rgb(96, 85, 255);
+  transition-duration: 0.25s;
+}
+
+@media only screen and (max-width:600px) {
+  #textarea {
+    width: 300px;
+    height: 200px;
+    font-size: 14;
+  }
+  
+}

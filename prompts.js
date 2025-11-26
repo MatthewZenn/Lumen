@@ -1,0 +1,1 @@
+const prompts = ["Write about a day in your life."]
