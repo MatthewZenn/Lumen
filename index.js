@@ -1,3 +1,5 @@
+const quotes = ["Ideas await...", "Ready to be inspired?", "On your mark, Get set, WRITE!", "Feeling stuck?", "Get motivated...", "Wrting is more than typing words..."]
+
 Array.prototype.random = function () {
   return this[Math.floor((Math.random()*this.length))];
 }
