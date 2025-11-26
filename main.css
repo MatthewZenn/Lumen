@@ -1,5 +1,5 @@
 body, html {
-  background-color: rgb(96, 85, 255);
+  background-color: rgb(112, 101, 255);
 }
 
 @font-face {
@@ -41,7 +41,7 @@ body, html {
 #prompt:hover {
   cursor: pointer;
   background-color: white;
-  color: rgb(96, 85, 255);
+  color: rgb(112, 101, 255);
   transition-duration: 0.25s;
 }
 
