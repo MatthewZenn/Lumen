@@ -8,8 +8,7 @@ document.getElementById("prompt").addEventListener('click', () => {
 });
 
 function quotation() {
-  document.getElementById('textarea').innerHTML ='';
-  document.getElementById('textarea').innerHTML = quote.random();
+  document.getElementById('textarea').innerHTML = quotes.random();
 }
 
 quotation();
