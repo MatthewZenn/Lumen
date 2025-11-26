@@ -1,1 +1,1 @@
-const prompts = ["Write about a day in your life."]
+const prompts = ["Write about a day in your life.", "Write a scene describing a memory.", "Write about the day of someone in a different time period.", "Re-tell a historical event in an alternate reality.", "Re-write a scene in a different tone or genre."]
